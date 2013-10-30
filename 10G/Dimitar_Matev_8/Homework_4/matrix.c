@@ -3,15 +3,15 @@
 
 int main() {
 
-    int i,n,z,s=0,ce;
+    float i,n,z,s=0,ce;
     
-    scanf("%d",&n);
+    scanf("%f",&n);
     
     	    for(i=1;i<=n;i++){
     	    
         	for(z=1;z<=n;z++){
         	
-        	    scanf("%d", &ce);
+        	    scanf("%f", &ce);
         	    
         	      if(z>i){
         	      
@@ -20,7 +20,7 @@ int main() {
      	        }
        	    }
 
-    printf("%d\n",s);
+    printf("%f\n",s);
 
 return 0;
 }
